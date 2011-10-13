@@ -1,0 +1,5 @@
+Template: neubot/privacy
+Type: select
+Choices: no permissions (DISABLES Neubot!), collect only, collect and share
+Description: Permission to collect and share your IP address
+ The permission to collect your IP address is mandatory: if you choose "no permissions" Neubot is DISABLED.  The permission to share raw results with other researchers is optional but very relevant: it allows others to study and criticize the results.  Neubot needs to ask the permission because the IP address is personal data under EU and Italian Law (Decree 196/03).  See www.neubot.org/privacy for the full privacy policy.

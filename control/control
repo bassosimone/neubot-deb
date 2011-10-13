@@ -1,0 +1,12 @@
+Package: neuprivacy
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Simone Basso <bassosimone@gmail.com>
+Installed-Size: 128
+Pre-Depends: debconf (>= 1.5.24), sqlite3 (>= 3.5.9-6)
+Section: net
+Homepage: http://www.neubot.org/
+Priority: optional
+Description: Network neutrality bot privacy policy.
+ This package is a prototype for the new installer that should
+ ask information regarding the privacy policy.

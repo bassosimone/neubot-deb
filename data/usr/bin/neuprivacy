@@ -1,0 +1,3 @@
+#!/bin/sh
+# Public domain.  Simone Basso <bassosimone@gmail.com>
+echo 'Neubot privacy prototype'

@@ -1,0 +1,17 @@
+#!/bin/sh -e
+# Public domain.  Simone Basso <bassosimone@gmail.com>
+
+# Must be at the beginning
+. /usr/share/debconf/confmodule
+
+#
+# XXX Unconditionally purge the database so when we upgrade
+# the new version can reask the user for permission if
+# needed.
+# I need to do that because Ubuntu Software Center does
+# not seem to honour the `db_fset` command and so the
+# preinst script does not work as it should.
+# This problem has been noted with Ubuntu Software Center
+# only, while dpkg and gdebi seem to work fine.
+#
+db_purge

@@ -1,0 +1,7 @@
+Neubot side project to understand what is the best way to ask
+for privacy permissions in Debian installer.
+
+This is also an useful exercise to understand how to create
+a minimal debian package without lintian warnings.
+
+		- Simone
